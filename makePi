@@ -1,0 +1,10 @@
+public int[] makePi() {
+  
+  int[] snyd = new int[3];
+  
+snyd[0] = 3;  
+snyd[1] = 1;
+snyd[2] = 4;
+
+return snyd;
+}
