@@ -1,0 +1,5 @@
+public int[] makeLast(int[] nums) {
+  int[] doub = new int[(nums.length*2)];
+  doub[doub.length-1] = nums[nums.length-1];
+  return doub;
+}
