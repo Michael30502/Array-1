@@ -1,0 +1,6 @@
+public int[] midThree(int[] nums) {
+  
+  int[] answer = new int[] {nums[(int)(nums.length/2-0.5)],nums[(int)(nums.length/2)],nums[(int)(nums.length/2+1.5)]};
+  return answer;
+  
+}
