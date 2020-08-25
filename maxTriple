@@ -1,0 +1,5 @@
+public int maxTriple(int[] nums) {
+  int biggest = Math.max(nums[0],nums[nums.length-1]);
+  biggest = Math.max(biggest,  nums[nums.length/2] );
+  return biggest;
+}
